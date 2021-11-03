@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Tonel Demo"),
+        title: const Text("Tonal Demo"),
       ),
       body: Wrap(
         spacing: 20,
@@ -51,6 +51,12 @@ class _MyHomePageState extends State<MyHomePage> {
             label: "Core",
             weight: 50,
             unit: "kg",
+          ),
+          Metrics(
+            label: "Arm Muscle",
+            weight: 60,
+            unit: "kg",
+            height: 300, //Different height
           ),
         ],
       ),
